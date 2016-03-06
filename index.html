@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>VERSION  2</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <!-- Copyright Paco van der Putten & Alexander Jermann 2016 -->
+</head>
+
+<body>
+
+	<div id="container">
+    	<div id="splash">
+            
+            <div id="title">
+       	    	<img src="images/polygon.png" width="120" height="33" alt=""/>
+            </div>
+            
+            <div id="logo">
+            	<img src="images/tap.png" alt="" width="150" height="150"/><br>
+            	<img src="images/qr.png" width="150" height="150" alt=""/>
+            </div>
+            
+            <div id="bottom">
+           	  <div class="left" id="receiptsButton">
+                	<img src="images/view-list.svg" alt="" width="50" height="50"/><br>
+                    <span>Receipts</span>
+                </div>
+              <div class="right" id="statsButton">
+                	<img src="images/analytics.svg" alt="" width="50" height="50"/><br>
+                    <span>Statistics</span>
+                </div>
+            </div>
+            
+        </div>
+        <div id="receipts">
+        	
+            <div id="title">
+            	<img src="images/thin-arrow-pointing-left.svg" alt="" width="30" height="30" id="receiptsBack" />
+            	<span style="margin: 0 81px">Receipts</span>
+       	    	<img src="images/magnifying-glass.svg" alt="" width="30" height="30"/>
+            </div>
+            
+   			<div class="receiptBox" id="box1">
+                <span class="receiptInfo">
+                    <h2>25/2/2016</h2>
+                    <h1>Manor</h1>
+                    <h2>4 Items - Basel, Switzerland</h2>
+                </span>
+                <span class="receiptPrice">
+                    <h1>
+                    	&#36;22.25
+                        <img src="images/right-arrow.png" width="20" height="30" alt=""/>
+                    </h1>
+                </span>
+            </div>
+            
+       		<div class="receiptBox" id="box2">
+                <span class="receiptInfo">
+                    <h2>21/2/2016</h2>
+                    <h1>Apple Store</h1>
+                    <h2>2 Items - New York, USA</h2>
+                </span>
+                <span class="receiptPrice">
+                    <h1>
+                    	&#36;1099.95
+                        <img src="images/right-arrow.png" width="20" height="30" alt=""/>
+                    </h1>
+                </span>
+            </div>
+            
+       		<div class="receiptBox" id="box3">
+                <span class="receiptInfo">
+                    <h2>19/2/2016</h2>
+                    <h1>Coop City</h1>
+                    <h2>10 Items - Zug, Switzerland</h2>
+                </span>
+                <span class="receiptPrice">
+                    <h1>
+                    	&#36;22.25
+                        <img src="images/right-arrow.png" width="20" height="30" alt=""/>
+                    </h1>
+                </span>
+            </div>
+            
+            <div id="receiptsMenu">
+       	    	<img src="images/2/receipts-clicked.png" width="50" height="50" alt=""/>
+            	<img src="images/2/warranty-clicked.png" width="50" height="50" alt=""/>
+            </div>
+            
+    	</div>
+        
+        <div id="bill1" class="bills">
+            <header>
+           	    <img src="images/thin-arrow-pointing-left.svg" alt="" width="30" height="30" id="billBack1"/>
+                <span style="margin: 0 81px">Receipt</span>
+            </header>
+       	</div>
+        <div id="bill2" class="bills">
+       	  <img src="images/warranty.png" width="414" height="714" alt="" style="position:absolute; left: 0; top: 0; pointer-events: none;"/>
+            <header>
+           	    <img src="images/thin-arrow-pointing-left.svg" alt="" width="30" height="30" id="billBack2"/>
+                <span style="margin: 0 81px">Warranty</span>
+            </header>
+        </div>
+        <div id="bill3" class="bills">
+            <header>
+           	    <img src="images/thin-arrow-pointing-left.svg" alt="" width="30" height="30" id="billBack3"/>
+                <span style="margin: 0 81px">Receipt</span>
+            </header>
+       	</div>
+        
+        <div id="stats">
+   	    	<img src="images/statistics-1.png" width="414" height="714" alt="" style="pointer-events: none;"/>
+            <div id="statsBack"></div>
+        </div>
+    </div>
+
+</body>
+</html>
